@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.assignment-6.com</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- tailwind css and daisy ui link added  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>  
+
+    <!-- google font link added  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="font-mulish">
+    <header class="container  md:mx-auto lg:mx-auto xl:mx-auto py-8">
+        <nav class="flex justify-between items-center">
+            <h1 class="text-indigo-950 font-black text-4xl">ReTro</h1>
+            <div class="flex  items-center space-x-7">
+                <div class="flex gap-7 hidden md:inline-flex">
+                    <div>
+                        <div class="tooltip" data-tip="Home">
+                            <button class="btn"><i class="fa-solid fa-house "></i></button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="tooltip" data-tip="edit">
+                            <button class="btn"><i class="fa-regular fa-pen-to-square"></i></button>
+                        </div>
+                    </div>
+                    <div >
+                        <div class="tooltip" data-tip="add friend">
+                            <button class="btn"><i class="fa-solid fa-person-circle-plus"></i></button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="tooltip" data-tip="flag">
+                            <button class="btn"><i class="fa-solid fa-flag"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-info rounded-3xl text-white">Sign In</button>
+            </div>         
+        </nav>
+<!-- header box  -->
+        <section class="bg-indigo-950 rounded-2xl my-12">
+            <div class="flex flex-col md:flex-row  justify-around items-center py-16 md:py-32 px-8 md:20 bg-[url('./images/bgbanner.png')] w-full h-full bg-cover bg-no-repeat">
+                <div class="space-y-12 mb-10">
+                    <h1 class="text-white font-extrabold text-4xl md:text-5xl lg:text-6xl">Welcome to the <br> <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">ReTro Forum</span></h1>
+                <p class="text-white">Share your favorite opinion and win and wp <br> forum coffee mug!</p>
+                <form class="bg-white py-4 px-6 flex items-center rounded-full " action="#" method="post">
+                    <input class="w-full text-xl p-2  outline-none" type="search" name="" id="" placeholder="Search here anything">
+                    <button class="btn bg-blue-500 py-5">search</button>
+                </form>
+                </div>
+                <div class="bg-white p-10 rounded-lg  w-full md:w-1/4">
+                    <table class="w-full">
+                        <tr class="h-10">
+                            <td>Registered Users</td>
+                            <td>01</td>
+                        </tr>
+                        <tr class="h-10">
+                            <td> Forum</td>
+                            <td>05</td>
+                        </tr>
+                        <tr class="h-10">
+                            <td> Topics</td>
+                            <td>01</td>
+                        </tr>
+                        <tr class="h-10">
+                            <td>Replies</td>
+                            <td>01</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+         
+    </main>
+    <footer>
+
+    </footer>
+
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/6ff9ff79a9.js" crossorigin="anonymous"></script>
+</body>
+</html>
